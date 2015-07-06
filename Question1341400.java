@@ -7,6 +7,12 @@ import algebra.FiniteField;
 import algebra.Matrix;
  
 public class Question1341400 {
+	public static void main (String [] args) {
+		n = 50;
+		k = 31;
+		System.out.println (test (Long.parseLong ("00101111111110001011010001011000111011100110100111",2));
+	}
+	
 	static List<Integer> getEquivalenceClasses (int n) {
 		List<Integer> result = new ArrayList<Integer> (); 
 		boolean [] done = new boolean [1 << n];
